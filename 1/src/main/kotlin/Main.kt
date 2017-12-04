@@ -6,6 +6,7 @@ import java.io.File
 
 fun main(args: Array<String>) {
     val input = File("input.txt").readText().trim().toCharArray()
+    println("hi")
 
     val sum = input
         .filterIndexed { index, c ->
@@ -21,5 +22,4 @@ fun CharArray.circularAccess(n: Int): Char {
 
     return get(index)
 }
-
 
